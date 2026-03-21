@@ -51,6 +51,12 @@ const projects = [
 			'Digital record system for all IT assets of the company including condition tracking and check/repair history.',
 		tags: ['React', 'Node.js', 'MongoDB'],
 	},
+	{
+		title: 'REPSShield',
+		role: 'Fullstack Developer',
+		description:
+			'A comprehensive time tracking platform for real estate professionals to maintain IRS REPS compliance. REPSShield helps real estate professionals track and document their time to meet IRS Real Estate Professional Status (REPS) requirements. The platform integrates with Gmail, Google Calendar, and Microsoft Outlook to automatically capture and categorize work activities using AI-powered analysis, ensuring accurate compliance documentation.',
+	},
 ];
 
 export function Projects() {
