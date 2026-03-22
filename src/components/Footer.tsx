@@ -9,7 +9,7 @@ export function Footer() {
 						&copy; {currentYear} Emiel Azucena. All rights reserved.
 					</p>
 					<p className='text-sm text-muted-foreground'>
-						Built with React & Tailwind CSS
+						Built with React, TypeScript & Tailwind CSS
 					</p>
 				</div>
 			</div>

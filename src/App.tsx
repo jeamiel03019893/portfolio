@@ -8,20 +8,25 @@ import { Skills } from '@/components/sections/Skills';
 import { Contact } from '@/components/sections/Contact';
 
 function App() {
-	return (
-		<div className='min-h-screen'>
-			<Header />
-			<main>
-				<Hero />
-				<About />
-				<Experience />
-				<Projects />
-				<Skills />
-				<Contact />
-			</main>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className='min-h-screen'>
+      <Header />
+      <main>
+        <Hero />
+        <div className='h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent mx-auto max-w-5xl' />
+        <About />
+        <div className='h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent mx-auto max-w-5xl' />
+        <Experience />
+        <div className='h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent mx-auto max-w-5xl' />
+        <Projects />
+        <div className='h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent mx-auto max-w-5xl' />
+        <Skills />
+        <div className='h-px bg-gradient-to-r from-transparent via-violet-500/30 to-transparent mx-auto max-w-5xl' />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
