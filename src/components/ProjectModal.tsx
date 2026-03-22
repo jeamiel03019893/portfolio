@@ -10,7 +10,6 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { StatusBadge } from '@/components/StatusBadge';
 import { type Project } from '@/data/projects';
-import defaultImg from '@/assets/img/project-default.jpg';
 import { cn } from '@/lib/utils';
 
 type Props = {
@@ -52,7 +51,7 @@ export function ProjectModal({ project, onClose }: Props) {
 				<ScrollArea className='max-h-[75vh] pr-4'>
 					<div className='space-y-5 pt-2'>
 						{/* Project screenshot — only shown if not the default placeholder */}
-						{project.image && project.image !== defaultImg && (
+						{project.image && (
 							<img
 								src={project.image}
 								alt={project.title}
