@@ -136,7 +136,7 @@ export const projects: Project[] = [
 		highlights: [
 			'TypeScript backend with domain-driven module structure (auth, election, candidate, member, user-role, activity-log) — clear separation of concerns for a complex multi-feature system',
 			'Dedicated React election display client deployed on event screens, showing live voting results separate from the admin interface',
-			'Bulk SMS notifications chunked at 30 per request to respect API rate limits, with full SMS log',
+			'Integrated third-party SMS gateway API for bulk notifications chunked at 30 per request to respect API rate limits, with full SMS log',
 			'Background cleanup jobs using a custom polling utility for expired token and OTP removal — no third-party scheduler dependency',
 			'Complete RBAC across all assembly roles: admin, election board, register, and observer',
 		],
@@ -148,7 +148,6 @@ export const projects: Project[] = [
 			'React',
 			'Mantine UI',
 			'MongoDB',
-			'SMS API',
 		],
 		buttonLabel: 'Internal Project',
 	},
@@ -207,9 +206,10 @@ export const projects: Project[] = [
 		role: 'Solo Developer',
 		status: 'Live Production',
 		overview:
-			'Reconciles ATM transactions from ZIP archives, categorizing entries by transaction type (cash withdrawals, balance inquiries, interbank fund transfers) with precise financial calculations to ensure accurate settlement figures.',
+			'Reconciles ATM transactions from ZIP archives, categorizing entries by transaction type (cash withdrawals, balance inquiries, interbank fund transfers)',
 		highlights: [
 			'Parses ZIP archives and categorizes transaction types required for reconciliation',
+			'Integrated with external banking data source for raw transaction feed processing with precise financial calculations to ensure accurate settlement figures.',
 			'Spreadsheet-style data review via Handsontable — mirrors the Excel-based workflow staff already knew, reducing adoption friction',
 			'Precise monetary calculations via BigNumber.js — eliminates floating-point rounding errors on financial totals',
 			'Containerized via Docker Compose for consistent, reproducible deployments',
