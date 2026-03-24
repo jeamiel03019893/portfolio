@@ -128,7 +128,7 @@ export const projects: Project[] = [
 		buttonLabel: 'Internal Project',
 	},
 	{
-		title: 'General Assembly System',
+		title: 'Election Management System',
 		role: 'Solo Developer',
 		status: 'Completed',
 		overview:
