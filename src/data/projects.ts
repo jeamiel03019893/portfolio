@@ -132,15 +132,15 @@ export const projects: Project[] = [
 		role: 'Solo Developer',
 		status: 'Completed',
 		overview:
-			'Member management and live election platform — TypeScript backend with domain-driven modules, member registration and management, live election display client, real-time voting, bulk SMS notifications, and background jobs for automated system maintenance.',
+			'Candidate and member management platform with live elections — TypeScript backend with domain-driven modules, member registration and management, live election display client, real-time voting, bulk SMS notifications, and background jobs for automated system maintenance.',
 		highlights: [
 			'TypeScript backend with domain-driven module structure (auth, election, candidate, member, user-role, activity-log) — clear separation of concerns for a complex multi-feature system',
 			'Dedicated React election display client deployed on event screens, showing live voting results separate from the admin interface',
 			'Integrated third-party SMS gateway API for bulk notifications chunked at 30 per request to respect API rate limits, with full SMS log',
 			'Background cleanup jobs using a custom polling utility for expired token and OTP removal — no third-party scheduler dependency',
-			'Complete RBAC across all assembly roles: admin, election board, register, and observer',
+			'Complete RBAC across all system roles: admin, election board, register, and observer',
 		],
-		impact: "Powers annual general assembly operations — member registration, live elections, and member communications — for the organization's full membership.",
+		impact: "Powers the organization's election operations — member registration, live elections, candidate management, and member communications — for the full membership.",
 		stack: [
 			'Node.js',
 			'Express',
