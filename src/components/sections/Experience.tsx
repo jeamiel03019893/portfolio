@@ -2,6 +2,22 @@ import { FadeIn } from '@/components/FadeIn';
 import { cn } from '@/lib/utils';
 
 const companyColors = {
+	blue: {
+		border: 'border-blue-500',
+		bg: 'bg-blue-500/5',
+		dot: 'text-blue-500',
+		pill: 'bg-blue-500/10 text-blue-400',
+		tag: 'bg-blue-500/10 text-blue-400',
+		bullet: 'text-blue-500',
+	},
+	amber: {
+		border: 'border-amber-500',
+		bg: 'bg-amber-500/5',
+		dot: 'text-amber-500',
+		pill: 'bg-amber-500/10 text-amber-400',
+		tag: 'bg-amber-500/10 text-amber-400',
+		bullet: 'text-amber-500',
+	},
 	violet: {
 		border: 'border-violet-500',
 		bg: 'bg-violet-500/5',
@@ -21,6 +37,40 @@ const companyColors = {
 };
 
 const experiences = [
+	{
+		company: 'Taocrowd Inc.',
+		period: 'Apr 2026 – May 2026',
+		color: 'blue' as const,
+		roles: [
+			{
+				title: 'Full Stack Developer – Contractor',
+				period: 'Apr 2026 – May 2026',
+				bullets: [
+					'Maintained web applications using React and Node.js.',
+					'Developed responsive and dynamic user interfaces.',
+					'Backend API development with Node.js and PostgreSQL.',
+				],
+				tags: ['React', 'Node.js', 'PostgreSQL'],
+			},
+		],
+	},
+	{
+		company: 'REPSShield',
+		period: 'Nov 2025 – Apr 2026',
+		color: 'amber' as const,
+		roles: [
+			{
+				title: 'Full Stack Developer – Contractor',
+				period: 'Nov 2025 – Apr 2026',
+				bullets: [
+					'Built and maintained the REPSShield app using React and Node.js.',
+					'Developed responsive and dynamic user interfaces.',
+					'Backend API development with Node.js and PostgreSQL.',
+				],
+				tags: ['React', 'Node.js', 'PostgreSQL'],
+			},
+		],
+	},
 	{
 		company: 'Mindanao Consolidated Cooperative Bank (MCCB)',
 		period: '2021 – 2025',
