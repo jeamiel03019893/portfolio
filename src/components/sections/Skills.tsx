@@ -67,6 +67,7 @@ const skillCategories = [
 		title: 'Frontend',
 		skills: [
 			'React',
+			'Next.js',
 			'TypeScript',
 			'JavaScript',
 			'HTML/CSS',
