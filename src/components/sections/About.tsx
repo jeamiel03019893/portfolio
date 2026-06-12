@@ -1,7 +1,9 @@
 import { Layers, Rocket, GitMerge, Code2, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { FadeIn } from '@/components/FadeIn';
-import cvFile from '@/assets/CV-Emiel.pdf';
+
+const CV_URL =
+	'https://drive.google.com/uc?export=download&id=1cHUWV_AyYlzFnjS-BwJyiLP92NxfpdO5';
 
 const stats = [
 	{
@@ -81,7 +83,7 @@ export function About() {
 								asChild
 								className='bg-violet-500 hover:bg-violet-600 text-white gap-2 transition-transform duration-300 hover:scale-105'
 							>
-								<a href={cvFile} download='CV-Emiel.pdf'>
+								<a href={CV_URL} target='_blank' rel='noreferrer'>
 									<Download className='h-4 w-4' />
 									Download CV
 								</a>
