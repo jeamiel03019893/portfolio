@@ -38,6 +38,23 @@ const companyColors = {
 
 const experiences = [
 	{
+	    company: 'TaoCrowd Inc.',
+	    period: 'Apr 2026 – May 2026',
+	    color: 'blue' as const,
+	    roles: [
+	        {
+	            title: 'Full Stack Developer – Contractor',
+	            period: 'Apr 2026 – May 2026',
+	            bullets: [
+	                'Maintained a Next.js application with full-stack architecture.',
+	                'Developed responsive and dynamic user interfaces.',
+	                'Built backend API logic with PostgreSQL.',
+	            ],
+	            tags: ['Next.js', 'PostgreSQL'],
+	        },
+	    ],
+	},
+	{
 		company: 'REPSShield',
 		period: 'Nov 2025 – Apr 2026',
 		color: 'amber' as const,
