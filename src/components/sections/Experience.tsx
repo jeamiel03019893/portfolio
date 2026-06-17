@@ -38,21 +38,20 @@ const companyColors = {
 
 const experiences = [
 	{
-	    company: 'TaoCrowd Inc.',
-	    period: 'Apr 2026 – May 2026',
-	    color: 'blue' as const,
-	    roles: [
-	        {
-	            title: 'Full Stack Developer – Contractor',
-	            period: 'Apr 2026 – May 2026',
-	            bullets: [
-	                'Maintained a Next.js application with full-stack architecture.',
-	                'Developed responsive and dynamic user interfaces.',
-	                'Built backend API logic with PostgreSQL.',
-	            ],
-	            tags: ['Next.js', 'PostgreSQL'],
-	        },
-	    ],
+		company: 'TaoCrowd Inc.',
+		period: 'Apr 2026 – May 2026',
+		color: 'blue' as const,
+		roles: [
+			{
+				title: 'Full Stack Developer – Contractor',
+				period: 'Apr 2026 – May 2026',
+				bullets: [
+					'Maintained a Next.js application with full-stack architecture, contributing across both frontend and backend development.',
+					'Developed responsive and dynamic user interfaces and built backend API logic with PostgreSQL.',
+				],
+				tags: ['Next.js', 'PostgreSQL'],
+			},
+		],
 	},
 	{
 		company: 'REPSShield',
@@ -63,9 +62,8 @@ const experiences = [
 				title: 'Full Stack Developer – Contractor',
 				period: 'Nov 2025 – Apr 2026',
 				bullets: [
-					'Built and maintained the REPSShield app using React and Node.js.',
-					'Developed responsive and dynamic user interfaces.',
-					'Backend API development with Node.js and PostgreSQL.',
+					'Implemented full-stack features for the REPSShield app using React, Node.js, and PostgreSQL across frontend and backend tickets.',
+					'Delivered responsive UI components and backend API endpoints, maintaining production quality under independent ownership.',
 				],
 				tags: ['React', 'Node.js', 'PostgreSQL'],
 			},
@@ -80,12 +78,12 @@ const experiences = [
 				title: 'Sr. Software Developer / Analyst',
 				period: 'Jan 2023 – Dec 2025',
 				bullets: [
-					'Built and deployed full-stack applications serving internal banking operations across multiple departments — data reconciliation, regulatory compliance, and organizational workflows.',
-					'Integrated third-party APIs including SMS gateway services for bulk notifications and core banking infrastructure for transaction data synchronization.',
-					'Maintained and optimized existing applications (Laravel, PHP, etc.) including feature updates, performance improvements, and bug fixes.',
-					'Managed complete development lifecycle: design, implementation, testing, deployment, and maintenance of production systems.',
-					'Collaborated with IT infrastructure team and core banking specialists to integrate solutions with existing banking infrastructure.',
-					'Deployed applications using Docker containerization with NGINX/Apache reverse proxy configurations.',
+					'Built and deployed multiple full-stack production systems used daily across bank departments — covering financial reconciliation, regulatory reporting, and internal operations.',
+					'Integrated third-party REST APIs including an SMS gateway serving bulk notifications to cooperative members, and core banking connectors for real-time transaction synchronization.',
+					'Owned the complete SDLC as sole developer: requirements gathering, design, build, test, deploy, and ongoing maintenance — all under regulatory audit and compliance constraints.',
+					'Led stakeholder interviews with department heads and end-users to translate complex banking workflows into precise technical specifications and working software.',
+					'Reduced deployment complexity by containerizing applications with Docker; configured Nginx and Apache as reverse proxies for production stability.',
+					'Modernized and extended legacy Laravel/PHP systems, restoring maintainability while preserving compliance-critical functionality.',
 				],
 				tags: [
 					'Node.js',
@@ -100,9 +98,9 @@ const experiences = [
 				title: 'Jr. Software Developer / Analyst',
 				period: 'Feb 2021 – Dec 2022',
 				bullets: [
-					'Developed, enhanced, and modified systems under the supervision of the Sr. Developer.',
-					'Tested and validated software changes before release.',
-					'Documented interfaces between new and legacy systems.',
+					'Contributed to full-stack banking applications using Node.js and React, working on both frontend and backend tasks.',
+					'Drove code quality through peer reviews and technical discussions, fostering consistent engineering standards across the team.',
+					'Resolved production defects in compliance-sensitive systems, maintaining operational stability during banking hours.',
 				],
 				tags: ['Node.js', 'PHP', 'MongoDB', 'MySQL'],
 			},
@@ -117,9 +115,8 @@ const experiences = [
 				title: 'IT Staff',
 				period: 'Jun 2018 – Dec 2020',
 				bullets: [
-					'Managed IT infrastructure including computer systems, network equipment, and multimedia setups.',
-					'Maintained LAN infrastructure and resolved connectivity issues across facilities.',
-					'Supported live event technical requirements including streaming, projection, and audio systems.',
+					'Administered the facility\'s IT infrastructure — computers, network equipment, and multimedia systems — keeping systems operational across daily facility operations.',
+					'Set up and operated technical requirements for live events including streaming, projection, and audio systems.',
 				],
 				tags: ['Networking', 'LAN', 'Hardware', 'Multimedia'],
 			},
