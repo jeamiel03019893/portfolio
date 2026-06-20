@@ -1,4 +1,4 @@
-import { Layers, Rocket, GitMerge, Code2, Download } from 'lucide-react';
+import { Layers, Rocket, GitMerge, Code2, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { FadeIn } from '@/components/FadeIn';
 
@@ -84,8 +84,8 @@ export function About() {
 								className='bg-violet-500 hover:bg-violet-600 text-white gap-2 transition-transform duration-300 hover:scale-105'
 							>
 								<a href={CV_URL} target='_blank' rel='noreferrer'>
-									<Download className='h-4 w-4' />
-									Download CV
+									<Eye className='h-4 w-4' />
+									View CV
 								</a>
 							</Button>
 						</FadeIn>
