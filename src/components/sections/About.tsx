@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { FadeIn } from '@/components/FadeIn';
 
 const CV_URL =
-	'https://drive.google.com/uc?export=download&id=1cHUWV_AyYlzFnjS-BwJyiLP92NxfpdO5';
+	'https://drive.google.com/file/d/1cHUWV_AyYlzFnjS-BwJyiLP92NxfpdO5/preview';
 
 const stats = [
 	{
