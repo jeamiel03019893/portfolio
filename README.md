@@ -15,6 +15,7 @@ Personal portfolio site: a single scrolling page covering intro, about, experien
 ## Features
 
 - Single-page layout with same-page anchor navigation; the header highlights the active section as you scroll (`IntersectionObserver`)
+- Light/dark theme toggle, persisted to `localStorage` and defaulting to system preference
 - Project grid with a detail dialog per project, driven entirely by one data file
 - Scroll-reveal entrance animations shared across sections via a reusable `FadeIn` wrapper
 
