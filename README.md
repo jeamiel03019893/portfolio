@@ -44,7 +44,9 @@ src/
 │   ├── sections/             # One component per page section (#about, #experience, #projects, #skills, #contact)
 │   ├── ui/                   # shadcn/ui primitives (button, card, dialog, badge, ...)
 │   ├── Header.tsx             # Nav with scroll-spy active-link highlighting
+│   ├── Footer.tsx             # Page footer
 │   ├── ThemeProvider.tsx      # Light/dark theme context
+│   ├── ThemeToggle.tsx        # Light/dark toggle button, rendered in Header
 │   ├── FadeIn.tsx             # Shared scroll-reveal animation wrapper
 │   ├── ProjectCard.tsx        # Project grid card
 │   ├── ProjectModal.tsx       # Project detail dialog
