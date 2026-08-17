@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const navItems = [
   { label: 'About', href: '#about' },
@@ -71,6 +72,7 @@ export function Header() {
           <span className='hidden md:inline-flex rounded-full bg-violet-500 text-white text-xs font-semibold px-3 py-1'>
             Open to Work
           </span>
+          <ThemeToggle />
           <button
             className='md:hidden p-2 text-muted-foreground hover:text-foreground'
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -95,10 +97,11 @@ export function Header() {
                 </a>
               </li>
             ))}
-            <li className='flex justify-center pt-2'>
+            <li className='flex justify-center items-center gap-3 pt-2'>
               <span className='rounded-full bg-violet-500 text-white text-xs font-semibold px-3 py-1'>
                 Open to Work
               </span>
+              <ThemeToggle />
             </li>
           </ul>
         </div>

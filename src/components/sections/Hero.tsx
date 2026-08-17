@@ -12,7 +12,7 @@ export function Hero() {
 					<div className='order-2 lg:order-1 flex flex-col justify-center'>
 						<FadeIn delay={100}>
 							<h1
-								className='font-black text-5xl md:text-7xl tracking-tight mb-4 text-white'
+								className='font-black text-5xl md:text-7xl tracking-tight mb-4 text-foreground'
 								style={{
 									textShadow:
 										'0 0 60px oklch(0.606 0.25 292 / 0.55)',
